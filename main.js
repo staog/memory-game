@@ -26,7 +26,7 @@ function connectionMsg() {
   if (messageArr.length !== 0) {
     newMessage += messageArr.shift();
     messageBox.innerHTML = newMessage;
-    setTimeout(connectionMsg, 10);
+    setTimeout(connectionMsg, 80);
   } else {
     start();
   }
