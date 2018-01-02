@@ -85,7 +85,7 @@ button {
   margin-top: 35px;
   padding: 5px auto;
 }
-h4 {
+.inline {
   display: inline-block;
   padding-left: 10px;
   padding-right: 30px;
